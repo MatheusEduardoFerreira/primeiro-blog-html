@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Space+Grotesk:wght@500&display=swap');
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body{
+    background: #121212;
+    width: 100vw;
+    
+}
+
+
+/** HEADER **/
+
+
+.content{
+    background:red;
+    padding: 60px;
+    background-color: #17171A;
+    
+}
+
+.content-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px 0px 2px 0px;
+   
+}
+
+span{
+    color: #E07B67;
+}
+
+.h1logo{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.content-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  
+
+
+        
+}
+
+.content-search input{
+    width: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent ;
+    border: 2px solid #252529;
+    outline: none;
+
+    
+
+}
+
+input{
+    color: white;
+    padding-left: 20px;
+
+}
+
+.img-lupa{
+    position: absolute;
+    cursor: pointer;
+    width: 1.8rem;
+
+
+
+ 
+}
+
+
+
+/** END HEADER **/
+
+
+/** BODY**/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.column-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #17171A;
+    padding: 30px;
+    width: 65%;
+    margin: 20px 0px 0px 0px;
+    border: 2px solid #E07B67;
+    border-radius: 10px;
+        
+}
+
+.title{
+    padding: 10px;
+    color: white;
+    font-size: 23px;
+    font-weight: 100;
+    
+}
+
+.noticia{
+    color: #AFABB6;
+
+}
+
+.heart{
+    width: 15px;
+    background: transparent;
+    border: 2px solid red;
+    
+}
+
+.heart:hover{
+    background: red;
+    cursor: pointer;
+}
+
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.lupa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    cursor: pointer;
+}
